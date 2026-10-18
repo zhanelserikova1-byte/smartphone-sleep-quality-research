@@ -1,0 +1,14 @@
+{
+  "project_name": "Nighttime Smartphone Usage and Sleep Quality Among University Students",
+  "data_path": "data/sample/students.csv",
+  "output_path": "results/benchmark_results.json",
+  "primary_metric": "pearson_correlation",
+  "independent_variable": "screen_time_hours",
+  "dependent_variable": "psqi_score",
+  "significance_level": 0.05,
+  "good_sleep_psqi_threshold": 5,
+  "disconnection_threshold_minutes": 30,
+  "minimum_sample_size": 5,
+  "missing_data_threshold_percent": 10,
+  "random_seed": 42
+}
